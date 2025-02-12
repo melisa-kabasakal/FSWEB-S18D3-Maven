@@ -70,7 +70,7 @@ class SqlRelationsApplicationTests {
 		assertNotNull(nurse);
 	}
 
-	@DisplayName("Nurse tablosu mevcut mu ? Doğru oluşturulmuş mu ?")
+	@DisplayName("Patient tablosu mevcut mu ? Doğru oluşturulmuş mu ?")
 	@Test
 	void findPatientTest(){
 		Patient patient = new Patient();
